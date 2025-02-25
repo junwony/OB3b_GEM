@@ -1,0 +1,15 @@
+﻿Input,output,Change,platform
+https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000178815.2/,GEM_anntADVE,First automated model from Methylosinus trichosporium OB3b ADVE genome,KBase
+GEM_anntADVE,GEM_anntADVE_ver2,"cpd01024_c0, cpd01024_e0, rxn00419, rxn08647, rxn00779, rxn00934, rxn03874, rxn16150, rxn16825, rxn16151, rxn16152, rxn00682, rxn00672, rxn00198, rxn10471, rxn12217, rxn07847, rxn00843, rxn07849 added",KBase
+GEM_anntADVE_ver2,GF1_GEM_anntADVE_ver2,Gapfilled with NMS media using Gapfill app,KBase
+GF1_GEM_anntADVE_ver2,GF1_GEM_anntADVE_ver3,"rxn00419 removed ,rxn00424 added",KBase
+GF1_GEM_anntADVE_ver3,GF1_GEM_anntADVE_ver4,rxn14207 added,KBase
+GF1_GEM_anntADVE_ver4,GEM_ADVE_v5,"cpd18009 (Ethylmalonyl-CoA), cpd21471 (R-Ethylmalonyl-CoA), cpd19589 (S-Methylsuccinyl-CoA) added",KBase
+GEM_ADVE_v5,GEM_ADVE_v5a,rxn16150 removed and re-added due to missing compounds,KBase
+GEM_ADVE_v5a,GEM_ADVE_v6,"rxn16825, rxn16151 removed and re-added due to missing compounds, rxn16152 reaction direction changed to be reversible",KBase
+GEM_ADVE_v6,GEM_ADVE_v6a,rxn16152 removed and re-added due to error from previous change,KBase
+GEM_ADVE_v6a,GEM_ADVE_v6b,"rxn16152 removed due to use of A/AH2, non-specific electron acceptor/donor, rxn25269 added as a replacement",KBase
+GEM_ADVE_v6b,GEM_ADVE_v7,rxn00154 added,KBase
+GEM_ADVE_v7,GEM_ADVE_v8,rxn05116 added to connect pathway for production of pyridoxal phosphate,KBase
+GEM_ADVE_v8,GEM_ADVE_v8a,rxn02939 added to connect pathway for producing pyridoxal phosphate,KBase
+GEM_ADVE_v8a,GEM_ADVE_v9,"The v8a does not utilize pathway in which the tetrahydromethanopterin (cpd00895, H4MPT) is involved. The H4MPT in v8a was a dead-end metabolite which is neither produced nor imported. Therefore, 7,8-dihydromethanopterin (cpd03523, H2MPT) was first added and a reaction of H4MPT production from H2MPT was added. H2MPT is expected to be imported from the medium (referred to OB3b model from Naizabekov and Lee, 2020). The v8a have a reaction that converts methylene-H4MPT to methenyl-H4MPT (rxn03079) and it utilizes coenzyme-F420 which is not used in any other reactions in v8a. Therefore, rxn03079 was deleted, and two reactions (rxn37236 and rxn07848) that uses NAD or NADP were added. cpd03523 (7,8-dihydromethanopterin, H2MPT) added to both cytosol and extracellular, which created exchange reactions of cpd03523 automatically. For model to produce H4MPT from H2MPT, a reaction rxn02430 was added. The default reversibility was altered to be irreversible. rxn03079 removed since it utilizes coenzyme-F420 which is the required in any other reactions. In place of rxn03079, two reactions, rxn37236 and rxn07848, added that use either NAD or NADP. They are defined to be reversible in ModelSEED, however, the directions were altered to be irreversible.",KBase

@@ -14,10 +14,11 @@ The directory 'multi_omics' contains transcriptomic, proteomic, and metabolomic 
 ### transcriptomic
 The transcripts per million (TPM) in the presence and absence of copper and cerium obtained from transcriptome at the NCBI GEO database accession number GSE90817 (submitted by Gu and Semrau, 2017)
 ### proteomic
-Also availabe at the PRIDE database accession number PXD045741 (submitted by Peng et al, 2023)
+Also available at the PRIDE database accession number PXD045741 (submitted by Peng et al, 2023)
 ### metabolomic
-13C-Isotopologues of 12 metabolites of wild-type (WT) *Methylosinus trichosporium* OB3b and two mutants, Δ*argE*::P*mxaFargJ* (mut_1) and WT+pTJS140-P*mxaFargJ* (mut_2) in the presence of copper.
+- 13C-Isotopologues of 12 metabolites of wild-type (WT) *Methylosinus trichosporium* OB3b and two mutants, Δ*argE*::P*mxaFargJ* (mut_1) and WT+pTJS140-P*mxaFargJ* (mut_2) in the presence of copper.
+- The subdirectory '13c_mfa' contains input files for 13C metabolic flux analysis using the FreeFlux Python package.
 
-# Reference
+## Reference
 - Gu, W., Semrau, J.D. Copper and cerium-regulated gene expression in *Methylosinus trichosporium* OB3b. Appl Microbiol Biotechnol 101, 8499–8516 (2017). https://doi.org/10.1007/s00253-017-8572-2
 - Peng P, Yang J, DiSpirito AA, Semrau JD.2023.MmoD regulates soluble methane monooxygenase and methanobactin production in *Methylosinus trichosporium* OB3b. Appl Environ Microbiol89:e01601-23.https://doi.org/10.1128/aem.01601-23

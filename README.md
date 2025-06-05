@@ -4,6 +4,7 @@
 
 ## model
 The directory 'model' contains the GEMs of *Methylosinus trichosporium* OB3b.
+- GEM_ADVE_OB3b: general model that includes both sMMO and pMMO, and therefore requires manual constraint of MMO expression and electron transfer modes
 - GEM_ADVE_OB3b_sMMO: model utilizing soluble methane monooxygenase (sMMO)
 - GEM_ADVE_OB3b_pMMO_RA: model utilizing particulate methane monooxygenase (pMMO) with *redox-arm* (RA) electron transfer mode
 - GEM_ADVE_OB3b_pMMO_UT: model utilizing particulate methane monooxygenase (pMMO) with *uphill-electron-transfer* (UT) mode
